@@ -1,0 +1,20 @@
+{
+  "name": "turtle-soup",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:soup": "tsx src/index.ts --soup"
+  },
+  "dependencies": {
+    "openai": "^4",
+    "yaml": "^2",
+    "dotenv": "^16",
+    "chalk": "^5"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tsx": "^4",
+    "@types/node": "^22"
+  }
+}
